@@ -27,7 +27,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* adds CSS styles to elements in the nav bar */
+/* adds CSS styles to elements in the nav bar within the header */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
