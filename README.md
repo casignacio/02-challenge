@@ -11,7 +11,7 @@ CSS
 
 ## Installation
 
-There is no installation necessary, the app may be accessed via this link - https://casignacio.github.io/https://casignacio.github.io/Horiseon-SEO-Marketing/
+There is no installation necessary, the app may be accessed via this link - https://casignacio.github.io/Horiseon-SEO-Marketing/
 
 ## Usage
 
