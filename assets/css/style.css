@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* adds CSS styles to all elements with the header tag */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +16,19 @@ header {
     color: #ffffff;
 }
 
+/* Company name header */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes the "SEO" in Horiseon to a different color */
 header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+/* adds CSS styles to elements in the nav bar */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,15 +36,17 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* end of CSS styles of nav bar */
 
+/* adds style to all anchor tags */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,6 +56,7 @@ p {
     font-size: 16px;
 }
 
+/* the main image at the top of the page */
 .hero {
     height: 800px;
     width: 100%;
@@ -75,6 +82,7 @@ p {
     margin-left: 20px;
 }
 
+/* stylizes all elements within the aside under the benefits tag in the aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +94,9 @@ p {
     background-color: #2589bd;
 }
 
+/* multiple elements with the same values have been cleaned up and consolidated into one input */
+
+/* adds CSS styles to the aside section */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -107,7 +118,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* end of aside CSS styles */
 
+/* adds CSS styles to all elements within the <main> section */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -131,7 +144,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* end of main section CSS styles */
 
+/* removed class "footer" and made it "footer" */
 footer {
     padding: 30px;
     clear: both;
@@ -139,6 +154,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+/* fixed the footer tag so that it is in sequential order according to headers */
+footer h4 {
     font-size: 20px;
 }
